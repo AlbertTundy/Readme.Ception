@@ -31,7 +31,7 @@ const questions = [
     },
     {type: "input", 
     name: "gitHub",
-    message: "What is the github address?"
+    message: "What is the github account name?"
     },
     {type: "input", 
     name: "webAddress",
