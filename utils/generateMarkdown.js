@@ -24,13 +24,9 @@ function generateMarkdown(data) {
   ## table of contents 
   [description](##description)<br/>
   [function](##function)<br/>
-  [inspiration](##inspiration)<br/>
-  [description](##description)<br/>
-  [description](##description)<br/>
-  [description](##description)<br/>
 
 
-  ## description: 
+  ## description:{name = description} 
   ${data.description}
   ## function:
   ${data.function}
