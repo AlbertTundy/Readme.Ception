@@ -30,18 +30,17 @@ function generateMarkdown(data) {
 
 
   ## description: 
-  ${data.description}
+  ${data.description}<br/>
   ## function:
-  ${data.function}
+  ${data.function}<br/>
   ## inspiration: 
-  ${data.inspiration}
+  ${data.inspiration}<br/>
   ## instillation: 
-  ${data.instillation}
-  <br/>
+  ${data.instillation}<br/>
   ## uses: 
-  ${data.uses}
+  ${data.uses}<br/>
   ## github page: 
-  [github.com/${data.gitHub}](http://github.com/${data.gitHub})
+  [github.com/${data.gitHub}](http://github.com/${data.gitHub})<br/>
   ## website address: 
   ${data.webAddress}
   
