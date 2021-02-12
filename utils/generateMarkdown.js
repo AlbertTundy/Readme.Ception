@@ -42,7 +42,7 @@ function generateMarkdown(data) {
   ## uses: 
   ${data.uses}
   ## github page: 
-  [www.github.com/${data.gitHub}](www.github.com/${data.gitHub})
+  [github.com/${data.gitHub}](http://github.com/${data.gitHub})
   ## website address: 
   ${data.webAddress}
   ${renderLicenseBadge(data.license)}

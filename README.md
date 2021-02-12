@@ -22,7 +22,7 @@
   ## uses: 
   
   ## github page: 
-  [www.github.com/AlbertTundy](www.github.com/AlbertTundy)
+  [github.com/AlbertTundy](http://github.com/AlbertTundy)
   ## website address: 
   
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
