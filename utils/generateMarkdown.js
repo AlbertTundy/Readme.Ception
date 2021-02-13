@@ -14,7 +14,16 @@ function renderLicenseLink(license) {}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(license) {
+  if(license === "MIT"){
+    return`this is license by MIT all rights reserved`
+  } else if(license === "Apache") {
+    return`This is licensed by Apache`
+  } else if(license === "CIA") {
+    return`this is licensed by the cia`
+  }
+
+}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
@@ -39,6 +48,8 @@ function generateMarkdown(data) {
   ${data.instillation}<br/>
   ## uses: 
   ${data.uses}<br/>
+  ##license description<br/>
+${data.renderLicenseSection(license)}
   ## github page: 
   [github.com/${data.gitHub}](http://github.com/${data.gitHub})<br/>
   ## website address: 
