@@ -38,24 +38,24 @@ function generateMarkdown(data) {
   [Usage](#Usage)<br/>
   [Contributing](#Contributing)<br/>
   [Tests](#Tests)<br/>
-  [License Description](#License Description)<br/>
+  [License](#License)<br/>
   [Questions](#Questions)<br/>
 
 
   ## Description: 
-  ${data.description}<br/>
+  ${data.Description}<br/>
   ## Function:
-  ${data.function}<br/>
+  ${data.Function}<br/>
   ## Inspiration: 
-  ${data.inspiration}<br/>
+  ${data.Inspiration}<br/>
   ## Instillation: 
-  ${data.instillation}<br/>
+  ${data.Instillation}<br/>
   ## Usage: 
-  ${data.uses}<br/>
+  ${data.Usage}<br/>
   ## Contributing:
-  ${data.contributing}
+  ${data.Contributing}
   ## Tests:
-  ## License Description<br/>
+  ## License<br/>
 ${renderLicenseSection(data.license)}
   ## Questions: 
   [github.com/${data.gitHub}](http://github.com/${data.gitHub})<br/>
