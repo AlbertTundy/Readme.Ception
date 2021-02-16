@@ -27,32 +27,39 @@ function renderLicenseSection(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.applicationTitle}
+  return `
+  # ${data.applicationTitle}
   ${renderLicenseBadge(data.license)}
-  ## table of contents 
-  [description](#description)<br/>
-  [function](#function)<br/>
-  [inspiration](#inspiration)<br/>
-  [description](#description)<br/>
-  [description](#description)<br/>
-  [description](#description)<br/>
+  ## Table of Contents 
+  [Description](#Description)<br/>
+  [Function](#Function)<br/>
+  [Inspiration](#Inspiration)<br/>
+  [Instillation](#Instillation)<br/>
+  [Usage](#Usage)<br/>
+  [Contributing](#Contributing)<br/>
+  [Tests](#Tests)<br/>
+  [License Description](#License Description)<br/>
+  [Questions](#Questions)<br/>
 
 
-  ## description: 
+  ## Description: 
   ${data.description}<br/>
-  ## function:
+  ## Function:
   ${data.function}<br/>
-  ## inspiration: 
+  ## Inspiration: 
   ${data.inspiration}<br/>
-  ## instillation: 
+  ## Instillation: 
   ${data.instillation}<br/>
-  ## uses: 
+  ## Usage: 
   ${data.uses}<br/>
-  ##license description<br/>
+  ## Contributing:
+  ${data.contributing}
+  ## Tests:
+  ## License Description<br/>
 ${renderLicenseSection(data.license)}
-  ## github page: 
+  ## Questions: 
   [github.com/${data.gitHub}](http://github.com/${data.gitHub})<br/>
-  ## website address: 
+  ### email me at: 
   ${data.webAddress}
   
 `;

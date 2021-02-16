@@ -10,32 +10,32 @@ const questions = [
     message: "What is the name of your application?"
     },
     {type: "input", 
-    name: "description",
+    name: "Description",
     message: "Describe your project?"
     },
     {type: "input", 
-    name: "function",
+    name: "Function",
     message: "What does your project do?"
     },
     {type: "input", 
-    name: "inspiration",
+    name: "Inspiration",
     message: "Why did you build this project?"
     },
     {type: "input", 
-    name: "instillation",
+    name: "Instillation",
     message: "How do you install your project?"
     },
     {type: "input", 
-    name: "uses",
+    name: "Usage",
     message: "What is your project good for?"
     },
     {type: "input", 
-    name: "gitHub",
-    message: "What is the github account name?"
+    name: "Contributing",
+    message: "Who has contributed to this project"
     },
     {type: "input", 
-    name: "webAddress",
-    message: "What is the web address?"
+    name: "Tests",
+    message: "What have you done to test this project?"
     },
     {type: "list", 
     name: "license",
@@ -44,7 +44,14 @@ const questions = [
         "MIT", "Apache", "Mi6", "Mozilla", "CIA"
     ]
     },
-
+    {type: "input", 
+    name: "webAddress",
+    message: "What is the web address?"
+    },
+    {type: "input", 
+    name: "gitHub",
+    message: "What is the github account name?"
+    },
 ];
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
