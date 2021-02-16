@@ -16,7 +16,7 @@ function renderLicenseLink(license) {}
 //If there is no license, return an empty string
 function renderLicenseSection(license) {
   if(license === "MIT"){
-    return`this is license by MIT all rights reserved`
+    return`This is licensed by MIT all rights reserved`
   } else if(license === "Apache") {
     return`This is licensed by Apache`
   } else if(license === "CIA") {
@@ -30,32 +30,31 @@ function generateMarkdown(data) {
   return `
   # ${data.applicationTitle}
   ${renderLicenseBadge(data.license)}
+  ## Description: 
+  ${data.Description}<br/>
   ## Table of Contents 
   [Description](#Description)<br/>
   [Function](#Function)<br/>
   [Inspiration](#Inspiration)<br/>
-  [Instillation](#Instillation)<br/>
+  [Installation](#Installation)<br/>
   [Usage](#Usage)<br/>
   [Contributing](#Contributing)<br/>
   [Tests](#Tests)<br/>
   [License](#License)<br/>
   [Questions](#Questions)<br/>
-
-
-  ## Description: 
-  ${data.Description}<br/>
   ## Function:
   ${data.Function}<br/>
   ## Inspiration: 
   ${data.Inspiration}<br/>
-  ## Instillation: 
-  ${data.Instillation}<br/>
+  ## Installation: 
+  ${data.Installation}<br/>
   ## Usage: 
   ${data.Usage}<br/>
   ## Contributing:
   ${data.Contributing}
   ## Tests:
-  ## License<br/>
+  ${data.Tests}
+  ## License: <br/>
 ${renderLicenseSection(data.license)}
   ## Questions: 
   [github.com/${data.gitHub}](http://github.com/${data.gitHub})<br/>

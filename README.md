@@ -1,35 +1,34 @@
 
-  # ReadMe.ception
+  # ReadMe.Ception
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  ## Description: 
+  It creates readme files<br/>
   ## Table of Contents 
   [Description](#Description)<br/>
   [Function](#Function)<br/>
   [Inspiration](#Inspiration)<br/>
-  [Instillation](#Instillation)<br/>
+  [Installation](#Installation)<br/>
   [Usage](#Usage)<br/>
   [Contributing](#Contributing)<br/>
   [Tests](#Tests)<br/>
   [License](#License)<br/>
   [Questions](#Questions)<br/>
-
-
-  ## Description: 
-  It makes README.md files <br/>
   ## Function:
-  ""<br/>
+  It takes in inputs and creates high quality read me files.<br/>
   ## Inspiration: 
-  to make my life easier <br/>
-  ## Instillation: 
-  initialize npm and npm i<br/>
+  To save time on read me files. <br/>
+  ## Installation: 
+  npm i inquirer<br/>
   ## Usage: 
-  Making README.md files<br/>
+  Creating high quality read me files quickly.<br/>
   ## Contributing:
-  just me
+  Open to branches 
   ## Tests:
-  ## License<br/>
-this is license by MIT all rights reserved
+  none
+  ## License: <br/>
+This is licensed by MIT all rights reserved
   ## Questions: 
   [github.com/AlbertTundy](http://github.com/AlbertTundy)<br/>
   ### email me at: 
-  spacyga@gmail.com
+  sapacyga@gmail.com
   
