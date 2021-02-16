@@ -53,6 +53,7 @@ function writeToFile(fileName, data) {}
 function init() {
     inquirer.prompt(questions).then(function(input){
         fs.writeFileSync("README.md", generateMarkdown(input))
+        
     })
 
 
